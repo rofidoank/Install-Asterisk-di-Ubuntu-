@@ -1,0 +1,3 @@
+<p>$ sudo su</p>
+<p>$ apt-get update -y</p>
+<p>$ apt-get upgrade -y</p>
