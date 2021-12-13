@@ -5,3 +5,5 @@ Cara menginstal Asterisk di Ubuntu pada Virtual Box
 <p>$ apt-get update</p>
 <p>$ apt-get upgrade</p>
 <p>$ apt-get install asterisk</p>
+<p>$ nano /etc/asterisk/sip.conf</p><hr>
+
