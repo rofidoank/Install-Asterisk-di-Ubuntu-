@@ -1,8 +1,8 @@
-sudo su
-apt-get update -y
-apt-get upgrade -y
-apt-get install asterisk
-nano /etc/asterisk/sip.conf
+$ sudo su
+$ apt-get update -y
+$ apt-get upgrade -y
+$ apt-get install asterisk
+$ nano /etc/asterisk/sip.conf
 
 [Nomor yang kalian inginkan]
 type=friend
@@ -11,8 +11,8 @@ username=nama kalian
 secret=isi yang kalian inginkan
 host=dynamic
 
-nano /etc/asterisk/extensions.conf
+$ nano /etc/asterisk/extensions.conf
 
 exten => nomor,1,Dial(SIP/nomor)
 
-service asterisk restart
+$ service asterisk restart
