@@ -1,7 +1,7 @@
 # Install Asterisk di Ubuntu
 ### Langkah-langkahnya sebagai berikut.
 
-<p>$ sudo si</p>
+<p>$ sudo su</p>
 <p>$ apt-get update</p>
 <p>$ apt-get upgrade</p>
 <p>$ apt-get install asterisk</p>
